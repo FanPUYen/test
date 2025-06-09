@@ -1,5 +1,5 @@
 ---
-title: "Lattice Reduction over Imaginary Quadratic Fields"
+title: "[Lattice Reduction over Imaginary Quadratic Fields](https://arxiv.org/abs/1806.03113)"
 collection: publications
 category: journal
 permalink: /publication/2020-lattice-reduction-imaginary

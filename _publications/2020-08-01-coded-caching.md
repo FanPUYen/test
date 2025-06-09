@@ -1,5 +1,5 @@
 ---
-title: "Coded Caching in a Multi-Server System With Random Topology"
+title: "[Coded Caching in a Multi-Server System With Random Topology](https://arxiv.org/abs/2003.05058)"
 collection: publications
 category: journal
 permalink: /publication/2020-coded-caching

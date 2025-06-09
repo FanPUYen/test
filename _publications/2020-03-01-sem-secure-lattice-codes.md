@@ -1,5 +1,5 @@
 ---
-title: "Semantically Secure Lattice Codes for Compound MIMO Channels"
+title: "[Semantically Secure Lattice Codes for Compound MIMO Channels](https://arxiv.org/abs/1903.09954)"
 collection: publications
 category: journal
 permalink: /publication/2020-sem-secure-lattice-codes

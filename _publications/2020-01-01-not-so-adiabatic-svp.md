@@ -1,5 +1,5 @@
 ---
-title: "Not-so-adiabatic quantum computation for the shortest vector problem"
+title: "[Not-so-adiabatic quantum computation for the shortest vector problem](https://arxiv.org/abs/1910.10462)"
 collection: publications
 category: journal
 permalink: /publication/2020-not-so-adiabatic-svp

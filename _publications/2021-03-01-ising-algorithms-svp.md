@@ -1,5 +1,5 @@
 ---
-title: "Two quantum Ising algorithms for the Shortest Vector Problem"
+title: "[Two quantum Ising algorithms for the Shortest Vector Problem](https://arxiv.org/abs/2006.14057)"
 collection: publications
 category: journal
 permalink: /publication/2021-ising-algorithms-svp
