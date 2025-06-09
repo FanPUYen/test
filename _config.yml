@@ -13,7 +13,7 @@ title                    : "Cong Ling's Homepage"
 title_separator          : "-"
 name                     : &name "Cong Ling"
 description              : &description "Communications and Signal Processing Group, Imperial College London"
-url                      : http://www.commsp.ee.ic.ac.uk/~cling # the base hostname & protocol for your site
+url                      : https://fanpuyen.github.io/test # the base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://fanpuyen.github.io/test/"
 
