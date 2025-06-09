@@ -7,13 +7,13 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "en-GB"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Cong Ling's Homepage"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+name                     : &name "Cong Ling"
+description              : &description "Communications and Signal Processing Group, Imperial College London"
+url                      : http://www.commsp.ee.ic.ac.uk/~cling # the base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://fanpuyen.github.io/test/"
 
@@ -23,13 +23,13 @@ repository               : "https://fanpuyen.github.io/test/"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  name             : "Cong Ling"
+  pronouns         :
+  bio              : "Professor in the Communications and Signal Processing Group"
+  location         : "Imperial College London, UK"
+  employer         : "Imperial College London"
+  uri              : "http://www.commsp.ee.ic.ac.uk/~cling/"
+  email            : "c.ling@imperial.ac.uk"
 
   # Academic websites
   academia         : # URL
