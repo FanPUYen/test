@@ -32,7 +32,7 @@ PhD students with excellent publication records are strongly encouraged to apply
 
 ## PhD Students
 - Lie, Maja (Topic: Lattice Based Cryptography)
-- Yan, Hao (Topic: Code Based Cryptography)
+- Yan, Hao (Topic: Information Theory)
 - Zhao, Nicholas (Topic: Quantum Algorithm)
 - Shen, Yirong (Topic: Information Theory)
 - Ali Sadreddin (Topic: Lattice Based Cryptography)
