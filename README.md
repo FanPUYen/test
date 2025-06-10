@@ -74,10 +74,11 @@ If you are using [Visual Studio Code](https://code.visualstudio.com/) you can us
 ## Automatic Google Scholar Updates
 
 1. Set the `site.author.googlescholar` field in `_config.yml` to your Google Scholar profile URL (e.g., `https://scholar.google.com/citations?user=XXXX`).
-2. The workflow `Update Publications from Scholar` runs daily to pull your latest publications and commit them under `_publications/`. You can also trigger it manually from the **Actions** tab by selecting **Run workflow** or run the script locally:
+2. The workflow `Update Publications from Scholar` runs daily to pull your latest publications and commit them under `_publications/`. You can also trigger it manually from the **Actions** tab or run the script locally:
    ```bash
    python scripts/update_publications_from_scholar.py
    ```
+   The script requires network access to Google Scholar and may fail behind strict firewalls.
 
 
 # Maintenance

@@ -9,6 +9,7 @@ public list of works using only the Python standard library.
 import re
 import html
 import urllib.request
+from urllib.error import URLError
 from pathlib import Path
 from urllib.parse import urlparse, parse_qs
 
@@ -80,8 +81,11 @@ def fetch_publications(scholar_id: str):
     """Return a list of publications for the given Scholar ID."""
     url = f"{BASE_URL}/citations?hl=en&user={scholar_id}&view_op=list_works&sortby=pubdate"
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req) as resp:
-        html_text = resp.read().decode("utf-8")
+    try:
+        with urllib.request.urlopen(req) as resp:
+            html_text = resp.read().decode("utf-8")
+    except URLError as e:
+        raise RuntimeError(f"Failed to fetch Google Scholar page: {e}")
 
     rows = re.findall(r'<tr class="gsc_a_tr".*?</tr>', html_text, re.S)
     pubs = []
